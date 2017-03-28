@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Example Dagger2 Retention</string>
+
+    <string name="app_name">Dagger2 Retention</string>
+
+    <!-- Navigation menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_diary">Diary</string>
+    <string name="nav_statistic">Statistic</string>
+    <string name="nav_impexp">Import/Export</string>
+    <string name="nav_settings">Settings</string>
+
 </resources>

@@ -1,4 +1,4 @@
-package ru.yurkirill.exampledagger2retention;
+package ru.yurkirill.dagger2retention;
 
 import org.junit.Test;
 

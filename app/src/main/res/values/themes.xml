@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark</item>
+        <item name="colorAccent">@color/app_accent</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme"/>
+
+    <style name="AppTheme.Home">
+        <item name="colorPrimary">@color/home_primary</item>
+        <item name="colorPrimaryDark">@color/home_primary_dark</item>
+        <item name="colorAccent">@color/home_accent</item>
+    </style>
+
+    <style name="AppTheme.Diary">
+        <item name="colorPrimaryDark">@color/diary_primary_dark</item>
+        <item name="colorPrimary">@color/diary_primary</item>
+        <item name="colorAccent">@color/diary_accent</item>
+    </style>
+
+    <style name="AppTheme.Statistic">
+        <item name="colorPrimaryDark">@color/statistic_primary_dark</item>
+        <item name="colorPrimary">@color/statistic_primary</item>
+        <item name="colorAccent">@color/statistic_accent</item>
+    </style>
+
+    <style name="AppTheme.Setting">
+        <item name="colorPrimaryDark">@color/pref_primary_dark</item>
+        <item name="colorPrimary">@color/pref_primary</item>
+        <item name="colorAccent">@color/pref_accent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout Id`s -->
+    <item type="id" name="toolbar" />
+    <item type="id" name="drawer_layout" />
+    <item type="id" name="navigation_view" />
+
+    <!-- Menu Id`s -->
+    <item type="id" name="nav_home" />
+    <item type="id" name="nav_diary" />
+    <item type="id" name="nav_statistic" />
+    <item type="id" name="nav_impexp" />
+    <item type="id" name="nav_settings" />
+
+</resources>

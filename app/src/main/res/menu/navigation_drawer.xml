@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home"/>
+
+        <item
+            android:id="@id/nav_diary"
+            android:icon="@drawable/ic_subject"
+            android:title="@string/nav_diary"/>
+
+        <item
+            android:id="@id/nav_statistic"
+            android:icon="@drawable/ic_equalizer"
+            android:title="@string/nav_statistic"/>
+
+    </group>
+
+    <group android:id="@+id/nav_secondary">
+
+        <item
+            android:id="@id/nav_impexp"
+            android:icon="@drawable/ic_import_export"
+            android:title="@string/nav_impexp"/>
+
+        <item
+            android:id="@id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_settings"/>
+
+    </group>
+
+</menu>

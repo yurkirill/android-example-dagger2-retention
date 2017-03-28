@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <!-- Элементы списков -->
+    <color name="list_item_disabled">#1f000000</color>
+    <color name="list_item_selected">#264f4f4f</color>
+    <color name="list_item_pressed">#33999999</color>
+    <color name="list_item_longpressed">#4d4f4f4f</color>
+    <color name="list_divider_color_light">#1f000000</color>
+
+    <!-- Иконки -->
+    <color name="icon_light">@color/secondary_text_default_material_light</color>
+    <color name="icon_light_inactive">#42000000</color>
+
+    <!-- NavigationView -->
+    <color name="nav_background">@color/material_grey_050</color>
+    <color name="nav_item_selected">@color/list_item_selected</color>
+    <color name="nav_icon">@color/icon_light</color>
+    <color name="nav_text">@color/primary_text_default_material_light</color>
+
+    <!-- Material design -->
+    <color name="material_grey_050">#fffafafa</color>
+    <color name="material_pink_a200">#ffff4081</color>
+    <color name="material_purple_500">#ff9c27b0</color>
+    <color name="material_purple_700">#ff7b1fa2</color>
+    <color name="material_indigo_500">#ff3f51b5</color>
+    <color name="material_indigo_700">#ff303f9f</color>
+    <color name="material_teal_500">#ff009688</color>
+    <color name="material_teal_700">#ff00796b</color>
+    <color name="material_brown_500">#ff795548</color>
+    <color name="material_brown_700">#ff5d4037</color>
+
+    <!-- Основная палитра приложения -->
+    <color name="app_primary">@color/material_indigo_500</color>
+    <color name="app_primary_dark">@color/material_indigo_700</color>
+    <color name="app_accent">@color/material_pink_a200</color>
+
+    <!-- Палитра для Домашнего экрана -->
+    <color name="home_primary">@color/material_teal_500</color>
+    <color name="home_primary_dark">@color/material_teal_700</color>
+    <color name="home_accent">@color/app_accent</color>
+
+    <!-- Палитра для экрана Дневника -->
+    <color name="diary_primary">@color/material_indigo_500</color>
+    <color name="diary_primary_dark">@color/material_indigo_700</color>
+    <color name="diary_accent">@color/app_accent</color>
+
+    <!-- Палитра для экрана Примеров -->
+    <color name="statistic_primary">@color/material_purple_500</color>
+    <color name="statistic_primary_dark">@color/material_purple_700</color>
+    <color name="statistic_accent">@color/app_accent</color>
+
+    <!-- Палитра для экрана Настройки -->
+    <color name="pref_primary">@color/material_brown_500</color>
+    <color name="pref_primary_dark">@color/material_brown_700</color>
+    <color name="pref_accent">@color/app_accent</color>
+
 </resources>
