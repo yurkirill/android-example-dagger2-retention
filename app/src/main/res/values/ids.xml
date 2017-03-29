@@ -3,8 +3,8 @@
 
     <!-- Layout Id`s -->
     <item type="id" name="toolbar" />
-    <item type="id" name="drawer_layout" />
-    <item type="id" name="navigation_view" />
+    <item type="id" name="drawerLayout" />
+    <item type="id" name="navigationView" />
 
     <!-- Menu Id`s -->
     <item type="id" name="nav_home" />

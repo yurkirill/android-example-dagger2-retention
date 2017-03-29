@@ -9,6 +9,8 @@ import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.view.MenuItem
 import android.view.View
+import kotlinx.android.synthetic.main.activity_sample.*
+import kotlinx.android.synthetic.main.navigation_view.*
 import ru.yurkirill.dagger2retention.R
 import ru.yurkirill.dagger2retention.ui.base.BaseActivity
 import ru.yurkirill.dagger2retention.util.logw
@@ -22,26 +24,10 @@ abstract class NavigationActivity : BaseActivity(), NavigationContract.View {
     @Inject
     lateinit var navigationPresenter: NavigationContract.Presenter
 
-    private var drawerLayout: DrawerLayout? = null
     private var itemId = 0
 
     override fun setContentView(layoutResID: Int) {
         super.setContentView(layoutResID)
-
-        // Поиск NavigationView в разметке.
-        val navigationView = findViewById(R.id.navigation_view) as? NavigationView
-        if (navigationView == null) {
-            logw("NavigationView not found")
-            return
-        }
-
-        // Поиск DrawerLayout в разметке.
-        val drawerLayout = findViewById(R.id.drawer_layout) as? DrawerLayout
-        if (drawerLayout == null) {
-            logw("DrawerLayout not found")
-            return
-        }
-        this.drawerLayout = drawerLayout
 
         // Тонирование элемнтов меню навигации.
         menuTint(navigationView)

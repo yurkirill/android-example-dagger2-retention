@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
-import ru.yurkirill.dagger2retention.R
+import kotlinx.android.synthetic.main.appbar_back.*
 import ru.yurkirill.dagger2retention.di.newRetentionId
 import ru.yurkirill.dagger2retention.di.remove
 import ru.yurkirill.dagger2retention.util.logw
@@ -35,13 +35,6 @@ abstract class BaseActivity : AppCompatActivity() {
 
     override fun setContentView(layoutResID: Int) {
         super.setContentView(layoutResID)
-
-        // Поиск Toolbar в разметке.
-        val toolbar = findViewById(R.id.toolbar) as? Toolbar
-        if (toolbar == null) {
-            logw("Toolbar not found")
-            return
-        }
 
         // Определение значения ColorControlNormal заданного темой.
         val attrs = intArrayOf(android.support.design.R.attr.colorControlNormal)

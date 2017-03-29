@@ -11,12 +11,11 @@
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ui.StatisticActivity">
+        android:layout_height="match_parent">
 
         <include layout="@layout/appbar_menu" />
 
-        <include layout="@layout/content_statistic" />
+        <include layout="@layout/content_sample" />
 
     </android.support.design.widget.CoordinatorLayout>
 

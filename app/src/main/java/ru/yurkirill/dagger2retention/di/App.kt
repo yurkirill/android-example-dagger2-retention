@@ -1,7 +1,6 @@
-package ru.yurkirill.dagger2retention
+package ru.yurkirill.dagger2retention.di
 
 import android.app.Application
-import ru.yurkirill.dagger2retention.di.appModule
 import ru.yurkirill.dagger2retention.di.singleton.AppModule
 
 /**
@@ -11,6 +10,10 @@ class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        appModule = AppModule(this)
+        _appModule = AppModule(this)
     }
 }
+
+private var _appModule: AppModule? = null
+
+val appModule get() = _appModule!!
